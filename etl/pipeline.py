@@ -13,11 +13,11 @@ class Pipeline:
     def run(self) -> pd.DataFrame:
         print("Extraindo...")
         df = self.extractor.extract()
-        print(f"  {len(df)} linhas lidas")
+        print(f"  {df.shape[0]} linhas, {df.shape[1]} colunas lidas")
 
         print("Transformando...")
         df = self.transformer.transform(df)
-        print(f"  {len(df)} linhas após tratamento")
+        print(f"  {df.shape[0]} linhas, {df.shape[1]} colunas após tratamento")
 
         print("Carregando...")
         self.loader.load(df)
