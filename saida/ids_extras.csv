@@ -1,0 +1,31 @@
+﻿_source_record,participant_id,age,gender,occupation,region,most_used_platform,platforms_used_count,daily_screen_hours,daily_notifications,night_time_use,minutes_to_first_check_after_waking,primary_purpose,avg_sleep_hours,anxiety_score_0to27,low_mood_score_0to27,life_satisfaction_1to10,loneliness_1to10,self_esteem_1to10,fomo_1to10,social_comparison_1to10,physical_activity_days_per_week,uses_screen_time_limits,attempted_digital_detox,seeks_mental_health_support,wellbeing_band,motivo
+280,P307019,46,male,self-employed,asia,snapchat,2,3.5,15,sometimes,14,news/information,6.3,12,3,8,7,7,5,5,3,False,no,yes,moderate,id_fora_da_referencia
+526,P307003,35,male,full-time employed,europe,instagram,4,4.4,54,every night,16,connection with friends,6.0,15,2,9,4,3,8,6,2,False,no,no,moderate,id_fora_da_referencia
+693,P307005,19,male,unemployed,europe,instagram,3,1.6,7,sometimes,36,entertainment,6.6,12,6,7,3,8,6,8,3,False,"yes, failed",yes,moderate,id_fora_da_referencia
+958,P307004,16,male,student,asia,snapchat,2,1.1,44,often,9,entertainment,8.5,7,1,7,4,6,4,5,4,False,no,considering it,good,id_fora_da_referencia
+1245,P307007,17,male,full-time employed,asia,linkedin,5,2.4,66,every night,26,news/information,7.3,8,2,10,3,9,5,5,1,False,no,yes,good,id_fora_da_referencia
+1316,P307026,14,male,student,africa,linkedin,5,1.0,9,sometimes,8,entertainment,7.1,5,2,8,5,6,3,4,5,True,no,no,good,id_fora_da_referencia
+1317,P307012,42,male,unemployed,north america,snapchat,3,1.6,13,sometimes,10,news/information,7.1,6,8,7,6,3,3,6,4,False,no,no,good,id_fora_da_referencia
+1663,P307010,24,female,student,asia,facebook,2,7.0,189,often,62,work/career,6.3,19,0,7,1,5,7,6,3,False,"yes, succeeded",yes,at-risk,id_fora_da_referencia
+1748,P307016,41,male,full-time employed,africa,x/twitter,3,1.9,26,never,47,connection with friends,7.1,4,3,6,7,6,2,5,4,False,no,considering it,good,id_fora_da_referencia
+2276,P307029,23,male,full-time employed,north america,tiktok,3,2.5,32,sometimes,27,entertainment,6.4,0,7,8,5,7,5,5,3,False,"yes, failed",considering it,good,id_fora_da_referencia
+2288,P307002,39,female,student,asia,youtube,3,2.1,34,sometimes,39,content creation,6.0,14,11,6,4,6,4,3,2,True,no,no,moderate,id_fora_da_referencia
+2470,P307024,45,female,full-time employed,north america,instagram,2,2.8,63,sometimes,31,entertainment,6.3,10,1,6,5,4,4,3,3,False,no,yes,moderate,id_fora_da_referencia
+2707,P307030,32,male,student,europe,facebook,2,2.0,23,sometimes,34,connection with friends,7.7,13,8,7,1,4,3,4,1,False,no,considering it,moderate,id_fora_da_referencia
+2817,P307022,25,male,full-time employed,asia,instagram,4,6.8,196,sometimes,20,entertainment,6.6,15,0,5,6,4,6,8,3,True,"yes, succeeded",no,moderate,id_fora_da_referencia
+3166,P307011,32,female,full-time employed,africa,tiktok,3,1.9,20,often,2,entertainment,8.1,8,11,7,1,6,8,4,3,False,no,no,moderate,id_fora_da_referencia
+3452,P307013,22,male,full-time employed,oceania,instagram,5,1.5,47,often,2,content creation,6.9,7,4,10,1,7,2,3,4,False,"yes, failed",no,good,id_fora_da_referencia
+3511,P307027,37,female,student,north america,tiktok,5,4.2,20,never,25,entertainment,7.8,15,1,5,1,6,8,7,6,False,no,no,moderate,id_fora_da_referencia
+3554,P307018,27,male,full-time employed,asia,youtube,1,3.6,15,every night,31,entertainment,6.7,15,11,9,6,5,5,2,3,False,no,considering it,moderate,id_fora_da_referencia
+3777,P307015,40,female,part-time employed,asia,instagram,2,2.8,66,never,5,passing time/boredom,7.3,10,10,7,4,9,4,6,2,False,"yes, failed",no,moderate,id_fora_da_referencia
+4031,P307006,35,female,student,latin america,youtube,4,1.1,23,often,50,entertainment,7.1,14,4,10,5,8,4,5,5,False,no,no,moderate,id_fora_da_referencia
+4223,P307001,34,female,student,asia,instagram,8,5.0,94,every night,6,entertainment,6.1,25,0,6,5,8,4,7,5,False,"yes, failed",no,at-risk,id_fora_da_referencia
+4263,P307020,29,female,student,asia,instagram,2,1.0,47,sometimes,36,entertainment,6.7,11,6,4,6,8,4,4,3,False,no,yes,moderate,id_fora_da_referencia
+4467,P307009,24,,student,north america,instagram,3,1.4,33,often,17,entertainment,6.7,10,4,6,5,2,4,2,7,False,"yes, succeeded",no,moderate,id_fora_da_referencia
+5415,P307025,31,male,full-time employed,asia,tiktok,4,3.5,28,often,10,entertainment,6.5,12,11,5,2,5,4,5,4,False,"yes, failed",no,moderate,id_fora_da_referencia
+5475,P307023,39,male,full-time employed,oceania,youtube,4,3.4,56,never,14,passing time/boredom,6.9,13,0,7,5,5,4,6,3,False,no,no,moderate,id_fora_da_referencia
+5822,P307021,52,male,full-time employed,north america,instagram,3,3.0,56,often,33,passing time/boredom,7.8,14,4,6,6,4,5,5,3,True,no,no,moderate,id_fora_da_referencia
+6147,P307028,24,female,student,north america,instagram,3,1.9,26,sometimes,35,entertainment,6.3,8,5,7,5,5,2,6,2,True,"yes, failed",considering it,good,id_fora_da_referencia
+6856,P307017,23,female,student,europe,youtube,6,5.2,202,sometimes,34,news/information,7.7,6,9,6,5,5,4,7,2,True,"yes, succeeded",yes,good,id_fora_da_referencia
+7037,P307014,20,female,student,north america,reddit,2,13.5,189,often,36,content creation,6.3,27,0,5,4,3,6,10,2,False,no,no,at-risk,id_fora_da_referencia
+7097,P307008,28,female,full-time employed,africa,tiktok,3,1.4,23,never,8,connection with friends,8.4,1,5,7,1,6,2,2,3,False,no,yes,good,id_fora_da_referencia

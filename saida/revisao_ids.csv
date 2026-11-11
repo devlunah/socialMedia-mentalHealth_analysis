@@ -1,0 +1,71 @@
+﻿_source_record,participant_id,age,gender,occupation,region,most_used_platform,platforms_used_count,daily_screen_hours,daily_notifications,night_time_use,minutes_to_first_check_after_waking,primary_purpose,avg_sleep_hours,anxiety_score_0to27,low_mood_score_0to27,life_satisfaction_1to10,loneliness_1to10,self_esteem_1to10,fomo_1to10,social_comparison_1to10,physical_activity_days_per_week,uses_screen_time_limits,attempted_digital_detox,seeks_mental_health_support,wellbeing_band,motivo
+159,P300115,31,female,student,europe,tiktok,2,4.3,48,sometimes,26,passing time/boredom,7.8,7,3,8,4,9,6,4,1,False,no,no,moderate,conflito_por_id
+201,P300142,13,prefer not to say,full-time employed,north america,x/twitter,1,5.5,66,sometimes,46,entertainment,6.9,9,3,5,8,7,6,6,0,False,"yes, failed",considering it,good,duplicata_apos_padronizacao
+323,P300997,35,female,student,europe,tiktok,5,2.2,39,sometimes,6,entertainment,7.2,4,6,5,6,4,5,6,2,True,"yes, failed",no,good,conflito_por_id
+334,P304260,23,male,full-time employed,north america,snapchat,1,4.5,44,often,11,content creation,6.8,12,8,8,8,5,2,3,2,False,"yes, failed",no,good,conflito_por_id
+544,P302278,42,female,full-time employed,latin america,instagram,3,4.1,92,often,22,news/information,7.3,7,1,8,1,8,5,8,4,False,no,no,good,duplicata_apos_padronizacao
+667,P306647,40,female,full-time employed,asia,x/twitter,2,2.5,93,every night,9,entertainment,5.4,5,0,10,5,5,5,4,3,False,no,no,good,conflito_por_id
+1099,P306478,33,female,full-time employed,north america,linkedin,2,1.7,6,often,33,connection with friends,7.3,2,0,10,5,5,2,7,4,True,no,no,good,conflito_por_id
+1233,P303572,33,female,student,north america,youtube,2,1.4,21,often,24,connection with friends,6.5,9,5,6,4,7,1,6,3,False,no,yes,good,conflito_por_id
+1251,P304168,22,female,part-time employed,north america,instagram,2,7.4,108,sometimes,26,entertainment,6.9,14,0,9,9,4,7,5,3,True,no,no,moderate,duplicata_apos_padronizacao
+1262,P306797,25,prefer not to say,full-time employed,asia,x/twitter,3,1.7,36,often,6,entertainment,6.8,15,0,6,3,6,3,5,2,False,"yes, failed",no,moderate,conflito_por_id
+1291,P302130,14,female,part-time employed,asia,tiktok,5,1.6,48,often,27,connection with friends,6.6,8,1,5,4,5,6,3,1,True,"yes, failed",no,good,conflito_por_id
+1407,P304997,22,female,part-time employed,europe,tiktok,4,3.4,29,sometimes,7,passing time/boredom,7.6,13,4,9,5,4,1,5,3,False,no,no,moderate,conflito_por_id
+1481,P301384,25,female,student,asia,x/twitter,3,1.9,51,often,22,work/career,6.2,14,15,8,5,5,5,2,3,True,"yes, failed",no,moderate,conflito_por_id
+1500,P306325,26,male,part-time employed,europe,tiktok,5,5.5,70,sometimes,45,content creation,6.2,13,3,7,5,6,6,3,3,True,"yes, succeeded",considering it,moderate,conflito_por_id
+1600,P302130,14,female,part-time employed,asia,tiktok,5,0.6,48,often,27,connection with friends,6.6,11,1,5,4,5,6,3,1,True,"yes, failed",no,good,conflito_por_id
+1768,P306325,26,male,part-time employed,europe,tiktok,5,4.5,70,sometimes,45,content creation,6.2,10,3,7,5,6,6,3,3,True,"yes, succeeded",considering it,moderate,conflito_por_id
+2082,P302360,38,female,student,asia,tiktok,3,1.4,39,never,20,entertainment,,0,0,7,2,7,4,5,3,False,no,yes,good,duplicata_apos_padronizacao
+2247,P303632,13,female,self-employed,asia,youtube,4,3.3,32,often,16,news/information,6.5,12,4,6,8,6,4,5,4,False,"yes, failed",no,moderate,conflito_por_id
+2400,P300115,31,female,student,europe,tiktok,2,3.3,48,sometimes,26,passing time/boredom,7.8,10,3,8,4,9,6,4,1,False,no,no,moderate,conflito_por_id
+2439,P304997,22,female,part-time employed,europe,tiktok,4,4.4,29,sometimes,7,passing time/boredom,7.6,16,4,9,5,4,1,5,3,False,no,no,moderate,conflito_por_id
+2482,P300079,26,male,student,europe,facebook,2,4.5,73,every night,8,entertainment,7.4,19,9,10,6,6,6,7,4,True,no,no,moderate,conflito_por_id
+2655,P306797,25,prefer not to say,full-time employed,asia,x/twitter,3,2.7,36,often,6,entertainment,6.8,19,0,6,3,6,3,5,2,False,"yes, failed",no,moderate,conflito_por_id
+2721,P306449,35,female,student,latin america,youtube,4,1.3,29,sometimes,11,entertainment,7.9,13,6,8,6,5,3,1,2,False,no,considering it,moderate,conflito_por_id
+2841,P301652,32,female,full-time employed,europe,instagram,3,3.4,38,often,20,connection with friends,6.9,19,0,8,5,3,6,6,3,False,no,considering it,at-risk,conflito_por_id
+2855,P303731,27,male,unemployed,europe,tiktok,5,2.0,69,never,22,entertainment,7.2,9,5,10,6,7,5,4,1,False,"yes, succeeded",no,good,duplicata_apos_padronizacao
+2861,P306787,38,male,student,europe,youtube,2,2.5,18,often,30,entertainment,7.5,10,6,9,8,7,2,5,2,False,no,no,moderate,conflito_por_id
+3041,P301652,32,female,full-time employed,europe,instagram,3,4.4,38,often,20,connection with friends,6.9,23,0,8,5,3,6,6,3,False,no,considering it,at-risk,conflito_por_id
+3104,P301416,25,male,full-time employed,latin america,reddit,2,8.2,76,sometimes,10,entertainment,7.8,13,0,7,9,6,9,7,1,True,"yes, failed",yes,moderate,conflito_por_id
+3165,P301416,25,male,full-time employed,latin america,reddit,2,9.2,76,sometimes,10,entertainment,7.8,16,0,7,9,6,9,7,1,True,"yes, failed",yes,moderate,conflito_por_id
+3266,P305295,36,male,full-time employed,europe,youtube,3,3.5,27,sometimes,8,content creation,7.9,19,4,5,10,5,5,5,2,False,"yes, failed",no,at-risk,duplicata_apos_padronizacao
+3321,P300997,35,female,student,europe,tiktok,5,3.2,39,sometimes,6,entertainment,7.2,8,6,5,6,4,5,6,2,True,"yes, failed",no,good,conflito_por_id
+3675,P306478,33,female,full-time employed,north america,linkedin,2,0.7,6,often,33,connection with friends,7.3,6,0,10,5,5,2,7,4,True,no,no,good,conflito_por_id
+3695,P306647,40,female,full-time employed,asia,x/twitter,2,3.5,93,every night,9,entertainment,5.4,8,0,10,5,5,5,4,3,False,no,no,good,conflito_por_id
+3710,P303737,13,female,student,asia,snapchat,3,4.0,85,never,9,passing time/boredom,8.4,7,5,6,4,5,4,6,2,False,"yes, failed",no,moderate,conflito_por_id
+3721,P301036,13,female,full-time employed,africa,instagram,2,1.9,130,sometimes,41,passing time/boredom,8.7,9,6,8,4,5,3,5,4,True,"yes, failed",no,good,duplicata_apos_padronizacao
+3909,P305339,14,non-binary,retired,europe,facebook,6,2.7,39,often,8,connection with friends,7.7,0,1,6,5,4,7,5,4,True,"yes, failed",no,good,conflito_por_id
+3976,P303986,19,male,student,north america,youtube,3,10.2,240,sometimes,31,news/information,5.3,20,0,7,9,3,8,8,4,False,no,considering it,at-risk,conflito_por_id
+4071,P306443,37,female,student,north america,tiktok,4,2.4,139,often,20,content creation,5.5,11,6,9,4,6,9,1,5,True,"yes, succeeded",no,good,conflito_por_id
+4092,P305748,19,male,full-time employed,europe,instagram,2,3.6,14,sometimes,10,passing time/boredom,7.3,11,6,8,4,5,8,7,4,True,"yes, failed",no,moderate,conflito_por_id
+4243,P304439,43,female,full-time employed,north america,instagram,1,1.5,15,sometimes,34,entertainment,6.7,6,12,7,4,4,2,3,1,True,"yes, succeeded",considering it,moderate,duplicata_apos_padronizacao
+4261,P300038,38,female,part-time employed,latin america,youtube,5,4.9,59,often,25,entertainment,6.8,5,3,8,8,6,6,6,3,False,"yes, failed",no,good,duplicata_apos_padronizacao
+4301,P302431,20,non-binary,full-time employed,north america,youtube,3,3.5,24,sometimes,20,content creation,6.8,16,9,8,5,8,1,7,2,False,"yes, failed",no,moderate,duplicata_apos_padronizacao
+4656,P306101,44,male,retired,africa,x/twitter,5,3.3,110,never,30,entertainment,6.9,11,7,6,1,8,3,7,2,True,no,no,good,conflito_por_id
+4845,P305748,19,male,full-time employed,europe,instagram,2,4.6,14,sometimes,10,passing time/boredom,7.3,7,6,8,4,5,8,7,4,True,"yes, failed",no,moderate,conflito_por_id
+4921,P305342,27,female,student,europe,instagram,7,2.8,91,often,43,entertainment,8.5,17,5,8,3,3,8,6,2,True,"yes, failed",yes,at-risk,duplicata_apos_padronizacao
+5066,P301445,32,male,part-time employed,asia,instagram,4,1.7,16,often,3,work/career,7.0,2,10,9,5,8,4,2,2,False,no,no,moderate,conflito_por_id
+5593,P303986,19,male,student,north america,youtube,3,9.2,240,sometimes,31,news/information,5.3,23,0,7,9,3,8,8,4,False,no,considering it,at-risk,conflito_por_id
+5730,P302644,20,female,part-time employed,europe,instagram,1,3.3,24,never,21,connection with friends,8.7,9,12,9,7,5,3,7,3,False,"yes, failed",no,moderate,duplicata_apos_padronizacao
+5749,P306787,38,male,student,europe,youtube,2,1.5,18,often,30,entertainment,7.5,13,6,9,8,7,2,5,2,False,no,no,moderate,conflito_por_id
+5775,P301384,25,female,student,asia,x/twitter,3,0.9,51,often,22,work/career,6.2,18,15,8,5,5,5,2,3,True,"yes, failed",no,moderate,conflito_por_id
+5858,P302745,27,male,full-time employed,north america,instagram,5,4.7,26,sometimes,8,content creation,7.2,15,0,6,3,4,6,6,3,False,"yes, failed",no,moderate,duplicata_apos_padronizacao
+5940,P303045,30,female,full-time employed,latin america,facebook,3,6.3,37,sometimes,19,content creation,6.7,13,2,6,6,4,5,6,2,False,"yes, succeeded",no,moderate,conflito_por_id
+5975,P305914,22,female,self-employed,latin america,instagram,4,0.9,16,every night,21,content creation,6.4,11,7,9,2,3,5,4,2,False,"yes, failed",no,moderate,duplicata_apos_padronizacao
+6015,P301445,32,male,part-time employed,asia,instagram,4,0.7,16,often,3,work/career,7.0,6,10,9,5,8,4,2,2,False,no,no,moderate,conflito_por_id
+6117,P304260,23,male,full-time employed,north america,snapchat,1,3.5,44,often,11,content creation,6.8,8,8,8,8,5,2,3,2,False,"yes, failed",no,good,conflito_por_id
+6142,P305339,14,non-binary,retired,europe,facebook,6,3.7,39,often,8,connection with friends,7.7,4,1,6,5,4,7,5,4,True,"yes, failed",no,good,conflito_por_id
+6269,P300079,26,male,student,europe,facebook,2,3.5,73,every night,8,entertainment,7.4,15,9,10,6,6,6,7,4,True,no,no,moderate,conflito_por_id
+6270,P301471,41,male,part-time employed,europe,instagram,5,3.1,73,never,12,entertainment,7.5,11,4,8,7,5,7,4,3,True,no,considering it,moderate,duplicata_apos_padronizacao
+6293,P306101,44,male,retired,africa,x/twitter,5,4.3,110,never,30,entertainment,6.9,7,7,6,1,8,3,7,2,True,no,no,good,conflito_por_id
+6357,P303737,13,female,student,asia,snapchat,3,5.0,85,never,9,passing time/boredom,8.4,10,5,6,4,5,4,6,2,False,"yes, failed",no,moderate,conflito_por_id
+6561,P306449,35,female,student,latin america,youtube,4,0.3,29,sometimes,11,entertainment,7.9,10,6,8,6,5,3,1,2,False,no,considering it,moderate,conflito_por_id
+6618,P303204,24,female,self-employed,asia,snapchat,1,3.3,60,never,3,passing time/boredom,8.3,16,3,7,6,4,8,9,1,False,"yes, failed",considering it,moderate,duplicata_apos_padronizacao
+6677,P305653,13,male,full-time employed,asia,tiktok,3,2.5,55,sometimes,27,news/information,7.0,10,0,7,6,8,4,6,3,False,no,no,moderate,duplicata_apos_padronizacao
+6686,P306443,37,female,student,north america,tiktok,4,3.4,139,often,20,content creation,5.5,8,6,9,4,6,9,1,5,True,"yes, succeeded",no,good,conflito_por_id
+6699,P303170,13,non-binary,student,oceania,instagram,2,7.1,199,never,26,work/career,7.0,17,0,8,8,5,4,7,2,True,no,yes,at-risk,duplicata_apos_padronizacao
+6716,P303045,30,female,full-time employed,latin america,facebook,3,5.3,37,sometimes,19,content creation,6.7,16,2,6,6,4,5,6,2,False,"yes, succeeded",no,moderate,conflito_por_id
+6798,P301762,28,non-binary,unemployed,europe,instagram,5,1.9,35,every night,36,connection with friends,7.1,12,5,5,6,8,1,2,4,False,"yes, failed",no,moderate,duplicata_apos_padronizacao
+6827,P303572,33,female,student,north america,youtube,2,2.4,21,often,24,connection with friends,6.5,5,5,6,4,7,1,6,3,False,no,yes,good,conflito_por_id
+6996,P303632,13,female,self-employed,asia,youtube,4,4.3,32,often,16,news/information,6.5,9,4,6,8,6,4,5,4,False,"yes, failed",no,moderate,conflito_por_id
+7150,P303616,36,male,student,asia,tiktok,3,2.7,157,sometimes,4,passing time/boredom,6.3,6,0,7,7,9,5,9,4,True,no,no,good,duplicata_apos_padronizacao

@@ -1,0 +1,84 @@
+﻿_source_record,participant_id,age,gender,occupation,region,most_used_platform,platforms_used_count,daily_screen_hours,daily_notifications,night_time_use,minutes_to_first_check_after_waking,primary_purpose,avg_sleep_hours,anxiety_score_0to27,low_mood_score_0to27,life_satisfaction_1to10,loneliness_1to10,self_esteem_1to10,fomo_1to10,social_comparison_1to10,physical_activity_days_per_week,uses_screen_time_limits,attempted_digital_detox,seeks_mental_health_support,wellbeing_band,motivo
+623,P306268,16,Female,Student,Europe,Instagram,2,4.4,23,Sometimes,10,Entertainment,7.7,13,3,6,8,4,8,7,2,Yes,No,No,Moderate,duplicata_exata
+922,P301444,13,Male,Part-time employed,Asia,TikTok,2,2.2,17,Never,9,Connection with friends,6.4,7,4,7,4,6,3,6,4,No,No,Considering it,Good,duplicata_exata
+1216,P304048,37,Male,Self-employed,Oceania,Facebook,7,4.0,74,Sometimes,19,News/information,6.8,8,10,7,5,7,2,8,1,Yes,No,Yes,Moderate,duplicata_exata
+1277,P300899,22,Female,Unemployed,Oceania,Reddit,5,1.9,10,Every night,7,Connection with friends,7.2,10,0,4,4,6,2,1,3,No,No,No,Moderate,duplicata_exata
+1437,P301581,31,Male,Full-time employed,Asia,Instagram,2,5.5,75,Never,4,Work/career,7.4,14,3,7,4,6,9,7,1,No,"Yes, succeeded",No,Moderate,duplicata_exata
+1624,P300135,33,Female,Student,Europe,X/Twitter,1,2.5,57,Sometimes,36,News/information,7.8,11,8,9,2,4,7,2,4,No,No,No,Moderate,duplicata_exata
+1704,,,,,,,,,,,,,,,,,,,,,,,,,,linha_vazia
+2132,P306349,26,Male,Full-time employed,Asia,TikTok,3,1.8,27,Sometimes,27,Entertainment,8.4,11,2,10,3,5,3,4,3,Yes,"Yes, succeeded",No,Moderate,duplicata_exata
+2185,P300069,33,Male,Part-time employed,Asia,Instagram,2,5.5,43,Every night,11,News/information,5.7,15,0,7,6,3,5,7,0,No,No,No,Moderate,duplicata_exata
+2257,P302328,38,Male,Full-time employed,Latin America,X/Twitter,2,3.9,119,Never,8,Entertainment,8.1,12,5,7,4,6,2,5,3,No,No,Considering it,Moderate,duplicata_exata
+2488,P300139,31,Female,Full-time employed,North America,Instagram,5,2.1,42,Sometimes,39,Content creation,7.6,4,10,7,3,6,8,5,2,No,"Yes, failed",No,Moderate,duplicata_exata
+2557,P305536,40,Male,Full-time employed,Asia,Instagram,1,3.4,130,Every night,9,News/information,5.7,11,0,7,4,5,5,8,3,No,No,Yes,Moderate,duplicata_exata
+2625,P303111,24,Female,Self-employed,Asia,Instagram,5,3.1,46,Often,7,Entertainment,6.7,14,2,7,6,5,6,5,4,Yes,No,Considering it,Moderate,duplicata_exata
+2774,P300454,26,Male,Student,Latin America,X/Twitter,1,2.9,41,Sometimes,25,News/information,7.6,10,8,6,3,8,5,7,3,Yes,No,No,Moderate,duplicata_exata
+2904,P304631,29,Male,Part-time employed,Europe,Snapchat,3,1.9,10,Often,37,Content creation,6.8,10,4,8,1,8,6,7,2,No,No,No,Moderate,duplicata_exata
+2965,P303812,37,Male,Student,North America,YouTube,4,2.6,129,Often,16,News/information,6.6,13,2,5,8,9,2,1,4,Yes,No,No,Moderate,duplicata_exata
+3016,P302865,13,Female,Full-time employed,Asia,Facebook,2,5.2,70,Often,1,Passing time/boredom,5.8,5,4,6,6,5,7,3,4,No,No,No,Good,duplicata_exata
+3046,P305938,29,Female,Student,Europe,Instagram,3,2.4,110,Sometimes,15,Passing time/boredom,6.4,6,0,7,6,5,5,6,3,No,No,No,Good,duplicata_exata
+3136,P303681,13,Male,Student,North America,X/Twitter,6,3.5,92,Sometimes,1,Connection with friends,7.9,5,9,9,1,6,1,5,5,Yes,"Yes, failed",No,Good,duplicata_exata
+3190,P300383,21,Male,Retired,Asia,YouTube,1,1.9,78,Never,6,Entertainment,6.4,12,13,8,6,7,3,7,3,No,"Yes, failed",Considering it,Moderate,duplicata_exata
+3228,P304425,33,Female,Student,Asia,YouTube,2,1.0,25,Never,63,Work/career,7.7,6,11,8,7,4,5,4,3,Yes,"Yes, succeeded",No,Moderate,duplicata_exata
+3237,P304722,31,Male,Full-time employed,North America,X/Twitter,4,2.3,51,Every night,7,Passing time/boredom,7.2,18,5,7,4,8,4,3,2,No,No,No,At-risk,duplicata_exata
+3241,P301928,38,Female,Unemployed,North America,Instagram,5,3.6,156,Sometimes,23,Connection with friends,7.6,18,2,8,4,5,6,6,4,No,"Yes, failed",No,At-risk,duplicata_exata
+3256,P302622,36,Male,Student,Asia,YouTube,7,3.0,60,Every night,31,Work/career,6.6,8,0,10,1,7,1,7,2,No,"Yes, failed",No,Good,duplicata_exata
+3292,P300741,41,Male,Full-time employed,Europe,Facebook,4,4.5,110,Every night,36,Passing time/boredom,5.7,16,0,8,5,1,5,4,2,No,"Yes, failed",No,Moderate,duplicata_exata
+3464,P306821,31,Male,Full-time employed,North America,TikTok,3,10.3,91,Sometimes,31,Connection with friends,6.6,20,3,4,8,5,9,10,3,No,"Yes, failed",No,At-risk,duplicata_exata
+3629,P305614,14,Non-binary,Full-time employed,Europe,Instagram,1,5.6,66,Often,7,News/information,6.7,15,3,7,6,5,4,8,2,Yes,No,No,Moderate,duplicata_exata
+3747,,,,,,,,,,,,,,,,,,,,,,,,,,linha_vazia
+3869,P302948,19,Female,Full-time employed,North America,Instagram,4,3.4,49,Every night,10,News/information,6.0,16,3,8,4,5,4,3,2,No,"Yes, failed",No,Moderate,duplicata_exata
+3962,P300791,37,Male,Full-time employed,Africa,Instagram,3,1.8,47,Sometimes,22,Work/career,7.7,12,6,6,5,4,4,6,5,Yes,No,No,Moderate,duplicata_exata
+4091,P301268,28,Male,Full-time employed,Europe,YouTube,2,1.3,16,Often,18,Entertainment,7.5,6,11,9,5,9,2,4,2,No,"Yes, succeeded",No,Moderate,duplicata_exata
+4119,P304018,22,Female,Full-time employed,Oceania,Facebook,1,3.4,17,Sometimes,7,Work/career,7.5,0,5,9,6,6,5,7,1,Yes,"Yes, failed",No,Good,duplicata_exata
+4495,P306444,13,Female,Full-time employed,North America,Instagram,4,4.1,48,Never,11,Connection with friends,7.0,6,6,7,8,7,1,3,5,No,No,No,Good,duplicata_exata
+4507,P306812,37,Non-binary,Self-employed,Latin America,TikTok,1,5.8,180,Every night,26,Passing time/boredom,6.1,13,0,5,6,5,3,6,3,No,No,No,Moderate,duplicata_exata
+4632,P304428,41,Male,Student,Latin America,Instagram,2,1.7,5,Every night,62,Entertainment,5.8,15,5,7,2,6,4,6,2,Yes,No,Considering it,Moderate,duplicata_exata
+4764,,,,,,,,,,,,,,,,,,,,,,,,,,linha_vazia
+4775,P303664,26,Male,Student,Latin America,YouTube,2,2.4,22,Sometimes,23,Connection with friends,7.4,5,1,9,6,4,6,5,4,Yes,"Yes, failed",No,Good,duplicata_exata
+4862,P305920,21,Male,Student,North America,Instagram,1,2.8,99,Sometimes,18,Entertainment,8.1,14,10,9,5,4,5,6,5,No,"Yes, failed",Considering it,Moderate,duplicata_exata
+4970,P303518,17,Male,Student,Oceania,Instagram,4,1.6,118,Every night,28,Entertainment,5.3,4,3,8,4,7,5,2,3,No,"Yes, succeeded",Yes,Good,duplicata_exata
+5101,P306481,50,Female,Full-time employed,Oceania,Instagram,2,2.9,100,Never,10,Work/career,8.0,8,0,8,5,6,4,4,2,No,"Yes, succeeded",No,Good,duplicata_exata
+5112,P302990,25,Male,Full-time employed,Asia,Instagram,4,4.5,100,Sometimes,11,Entertainment,6.4,11,4,5,10,6,6,7,5,Yes,No,Yes,Moderate,duplicata_exata
+5149,P306651,46,Male,Full-time employed,Africa,TikTok,5,3.4,5,Every night,13,Entertainment,6.5,6,0,7,4,7,3,3,2,No,"Yes, failed",No,Good,duplicata_exata
+5352,P302770,20,Male,Student,Asia,Snapchat,1,3.8,89,Often,3,Entertainment,6.7,11,8,7,6,5,4,2,3,No,"Yes, failed",No,Moderate,duplicata_exata
+5391,P305630,38,Female,Full-time employed,Oceania,Snapchat,2,1.6,19,Often,34,Connection with friends,7.8,4,6,6,7,7,8,5,3,No,No,No,Good,duplicata_exata
+5454,P306428,15,Male,Full-time employed,Latin America,Instagram,4,5.2,61,Sometimes,5,Entertainment,6.1,14,0,7,7,6,7,6,1,No,"Yes, failed",Yes,Moderate,duplicata_exata
+5511,P303043,28,Non-binary,Full-time employed,Asia,Instagram,4,5.6,68,Sometimes,2,Passing time/boredom,6.2,18,3,5,3,7,4,5,4,No,No,No,At-risk,duplicata_exata
+5564,P302309,22,Female,Full-time employed,Europe,Reddit,7,3.0,15,Sometimes,22,Content creation,8.1,10,9,7,2,5,4,4,5,Yes,No,No,Moderate,duplicata_exata
+5572,P303645,13,Female,Student,North America,TikTok,2,3.6,80,Often,24,Connection with friends,7.7,11,4,8,5,4,4,9,3,Yes,No,Yes,Moderate,duplicata_exata
+5580,P301694,19,Male,Student,Africa,TikTok,3,1.8,26,Sometimes,2,Entertainment,7.2,10,5,7,3,9,4,6,1,No,No,Considering it,Moderate,duplicata_exata
+5628,P300731,13,Female,Full-time employed,Europe,YouTube,7,1.4,61,Often,36,Passing time/boredom,6.3,9,10,6,8,7,2,7,2,Yes,"Yes, failed",No,Moderate,duplicata_exata
+5733,P300257,21,Female,Student,Latin America,Instagram,2,0.7,9,Often,26,Entertainment,8.0,0,9,10,4,9,3,3,2,No,"Yes, succeeded",No,Good,duplicata_exata
+5750,P303720,18,Female,Part-time employed,North America,Facebook,5,1.3,10,Sometimes,13,Connection with friends,6.5,12,2,10,2,7,4,7,3,No,"Yes, failed",No,Moderate,duplicata_exata
+5787,P301613,36,Female,Student,Africa,Instagram,3,2.4,68,Sometimes,11,Work/career,5.6,10,10,4,3,2,3,4,3,No,No,Yes,Moderate,duplicata_exata
+5879,P304417,31,Female,Student,Asia,YouTube,1,5.0,37,Every night,9,Content creation,7.2,11,3,7,7,5,9,7,4,No,No,No,Moderate,duplicata_exata
+5911,P302829,33,Male,Full-time employed,Asia,Snapchat,6,5.6,10,Often,20,Connection with friends,6.4,16,1,6,5,6,4,2,5,No,No,No,Moderate,duplicata_exata
+5935,P305208,33,Female,Full-time employed,Asia,YouTube,4,1.5,32,Sometimes,4,Passing time/boredom,8.0,18,7,10,1,10,6,1,4,Yes,"Yes, failed",Considering it,At-risk,duplicata_exata
+5953,P301879,15,Male,Full-time employed,Asia,Facebook,1,2.6,29,Never,32,Entertainment,8.4,7,9,8,1,3,1,8,3,Yes,"Yes, succeeded",No,Good,duplicata_exata
+5980,P302100,13,Female,Unemployed,Asia,X/Twitter,2,6.4,72,Sometimes,17,News/information,7.1,14,0,5,10,7,8,5,3,Yes,"Yes, succeeded",Yes,Moderate,duplicata_exata
+6061,P306864,28,Female,Unemployed,Asia,Snapchat,4,4.5,33,Every night,9,Entertainment,6.1,15,0,7,4,4,5,9,1,No,No,Yes,Moderate,duplicata_exata
+6168,P304082,27,Female,Student,Latin America,TikTok,3,4.3,113,Never,11,Connection with friends,8.3,6,3,9,4,4,4,7,5,No,No,No,Good,duplicata_exata
+6217,P302232,29,Male,Full-time employed,Asia,YouTube,2,1.9,34,Never,23,Connection with friends,8.2,9,1,9,7,6,7,3,2,No,"Yes, failed",No,Good,duplicata_exata
+6327,P303910,47,Male,Student,Europe,YouTube,4,1.0,17,Every night,3,Connection with friends,6.1,14,11,9,4,8,5,5,5,No,"Yes, failed",No,Moderate,duplicata_exata
+6453,P304806,30,Female,Full-time employed,Europe,Facebook,4,1.8,66,Every night,18,Entertainment,5.6,13,0,6,5,6,3,2,3,No,"Yes, failed",No,Moderate,duplicata_exata
+6459,P306224,17,Male,Self-employed,Latin America,TikTok,4,2.3,33,Sometimes,15,Connection with friends,7.8,8,6,8,2,9,4,5,5,No,"Yes, succeeded",No,Good,duplicata_exata
+6463,P304586,50,Male,Full-time employed,North America,TikTok,1,5.9,69,Often,6,News/information,5.8,18,0,2,9,3,3,8,2,No,No,No,At-risk,duplicata_exata
+6560,P300557,21,Female,Full-time employed,North America,Instagram,4,5.5,138,Never,9,Entertainment,8.0,22,6,8,6,8,7,5,4,No,"Yes, failed",Considering it,At-risk,duplicata_exata
+6571,P306862,31,Male,Full-time employed,Europe,Instagram,3,2.2,39,Often,26,Passing time/boredom,7.2,16,6,7,5,7,5,5,2,No,"Yes, succeeded",No,Moderate,duplicata_exata
+6622,P305932,23,Male,Student,Asia,TikTok,8,3.0,24,Sometimes,11,Content creation,6.4,14,4,9,6,5,5,7,3,No,"Yes, failed",No,Moderate,duplicata_exata
+6642,P301114,28,Female,Student,Asia,Snapchat,1,5.2,40,Sometimes,15,News/information,6.3,13,7,6,5,8,3,4,3,Yes,"Yes, succeeded",No,Moderate,duplicata_exata
+6673,P305755,21,,Self-employed,North America,Reddit,6,1.7,23,Sometimes,10,Passing time/boredom,6.5,6,4,8,5,5,6,6,2,Yes,No,No,Good,duplicata_exata
+6683,P303112,13,Female,Part-time employed,Europe,X/Twitter,8,2.9,75,Sometimes,28,Connection with friends,6.5,1,1,8,4,5,1,7,2,Yes,No,Considering it,Good,duplicata_exata
+6723,P301242,25,Female,Full-time employed,Europe,Reddit,5,3.2,45,Sometimes,6,Work/career,7.2,5,0,9,3,6,4,7,4,Yes,"Yes, failed",Yes,Good,duplicata_exata
+6789,P300141,31,Female,Student,North America,X/Twitter,2,4.0,106,Never,3,Connection with friends,7.7,11,0,9,3,4,6,5,2,No,"Yes, failed",No,Moderate,duplicata_exata
+6852,P306820,36,Female,Full-time employed,Europe,Snapchat,4,3.8,53,Often,19,Entertainment,8.3,13,1,4,3,6,3,6,3,No,"Yes, failed",No,Moderate,duplicata_exata
+6893,P301804,25,Female,Retired,Asia,Reddit,7,0.6,15,Often,14,News/information,7.6,8,15,8,1,7,4,2,4,No,No,No,Moderate,duplicata_exata
+6916,P302212,24,Male,Full-time employed,North America,YouTube,3,3.0,60,Often,6,Work/career,7.3,8,4,7,7,8,10,10,5,No,No,Considering it,Good,duplicata_exata
+6998,P300392,35,Female,Student,Europe,LinkedIn,7,4.0,56,Sometimes,16,Entertainment,5.1,15,1,6,2,2,6,6,1,No,No,No,Moderate,duplicata_exata
+7006,P301272,17,Female,Full-time employed,Latin America,TikTok,2,2.4,53,Sometimes,38,Passing time/boredom,7.6,14,6,8,3,7,7,7,1,Yes,"Yes, failed",No,Moderate,duplicata_exata
+7025,P305291,19,Male,Full-time employed,North America,Facebook,2,2.4,41,Often,17,Connection with friends,7.1,11,5,8,4,7,3,6,4,No,"Yes, failed",No,Moderate,duplicata_exata
+7058,P304970,26,Male,Full-time employed,Asia,YouTube,4,4.5,185,Sometimes,18,Passing time/boredom,7.0,20,8,7,4,6,4,5,2,Yes,No,Considering it,At-risk,duplicata_exata
+7076,P302229,35,Female,Student,Latin America,Instagram,4,4.4,132,Often,14,Connection with friends,6.5,8,7,5,8,2,7,5,1,No,No,Yes,Good,duplicata_exata
+7122,P303881,29,Female,Student,Asia,YouTube,5,3.7,117,Every night,6,News/information,6.3,15,0,5,4,2,7,7,3,No,No,No,Moderate,duplicata_exata
+7158,P301350,47,Female,Unemployed,North America,Instagram,3,0.7,14,Often,8,Passing time/boredom,7.1,6,4,7,1,4,5,7,1,No,No,No,Good,duplicata_exata
