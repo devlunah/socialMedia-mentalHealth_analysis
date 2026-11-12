@@ -1,6 +1,6 @@
 import pandas as pd
 
-from schema import (ALIASES_CATEGORIAS, COLUNAS_ESPERADAS, FAIXAS, IDADES_POR_EXTENSO, MAPA_BOOLEANOS, MARCADORES_DE_AUSENCIA, TIPOS_FINAIS)
+from schema import (ALIASES_CATEGORIAS, COLUNAS_ESPERADAS, FAIXAS, IDADES_POR_EXTENSO, MAPA_BOOLEANOS, MARCADORES_DE_AUSENCIA, TIPOS_FINAIS, FAIXAS_ANALITICAS)
 
 
 COLUNAS_CATEGORICAS = (
@@ -183,3 +183,20 @@ def comparar_ids_com_referencia(
     )
 
     return dados_analiticos, ids_extras, ids_originais_ausentes
+
+def adicionar_faixas_analiticas(df: pd.DataFrame) -> pd.DataFrame:
+    dados = df.copy()
+
+    for destino, (origem, limites, rotulos) in FAIXAS_ANALITICAS.items():
+        ordem = pd.cut(
+            dados[origem].astype("float64"),
+            bins=[float("-inf"), *limites, float("inf")],
+            labels=False,
+            right=True,
+        ).astype("Int64") + 1
+
+        rotulos_por_ordem = dict(enumerate(rotulos, start=1))
+        dados[destino] = ordem.map(rotulos_por_ordem).astype("string")
+        dados[f"{destino}_order"] = ordem
+
+    return dados

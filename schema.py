@@ -59,6 +59,43 @@ TIPOS_FINAIS = {
     "wellbeing_band": "string",
 }
 
+FAIXAS_ANALITICAS = {
+    "age_band": (
+        "age",
+        (17, 24, 34, 44, 54),
+        ("<18", "18–24", "25–34", "35–44", "45–54", "55+"),
+    ),
+    "notifications_band": (
+        "daily_notifications",
+        (25, 50, 100, 150),
+        ("Até 25", "26–50", "51–100", "101–150", "Mais de 150"),
+    ),
+    "screen_hours_band": (
+        "daily_screen_hours",
+        (1, 2, 3, 4, 6),
+        ("Até 1 h", ">1 até 2 h", ">2 até 3 h", ">3 até 4 h",
+         ">4 até 6 h", "Mais de 6 h"),
+    ),
+    "first_check_band": (
+        "minutes_to_first_check_after_waking",
+        (5, 15, 30, 60),
+        ("Até 5 min", "6–15 min", "16–30 min", "31–60 min", "Mais de 60 min"),
+    ),
+    "sleep_hours_band": (
+        "avg_sleep_hours",
+        (5, 6, 7, 8),
+        ("Até 5 h", ">5 até 6 h", ">6 até 7 h", ">7 até 8 h", "Mais de 8 h"),
+    ),
+}
+
+TIPOS_DERIVADOS = {}
+for coluna in FAIXAS_ANALITICAS:
+    TIPOS_DERIVADOS[coluna] = "string"
+    TIPOS_DERIVADOS[f"{coluna}_order"] = "Int64"
+
+COLUNAS_SAIDA = [*COLUNAS_ESPERADAS, *TIPOS_DERIVADOS]
+TIPOS_SAIDA = {**TIPOS_FINAIS, **TIPOS_DERIVADOS}
+
 # Limites inclusivos. None significa que não há máximo configurado.
 FAIXAS = {
     "age": (0, 120),

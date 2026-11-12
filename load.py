@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from schema import COLUNAS_ESPERADAS, FAIXAS, TIPOS_FINAIS
+from schema import COLUNAS_SAIDA, FAIXAS, TIPOS_DERIVADOS, TIPOS_SAIDA
 
 
 TIPOS_SQLITE = {
@@ -16,11 +16,11 @@ TIPOS_SQLITE = {
 
 
 def carregar_participantes(df: pd.DataFrame, caminho: str | Path) -> int:
-    dados = df.loc[:, COLUNAS_ESPERADAS]
+    dados = df.loc[:, COLUNAS_SAIDA]
     definicoes = []
 
-    for coluna in COLUNAS_ESPERADAS:
-        tipo = TIPOS_SQLITE[TIPOS_FINAIS[coluna]]
+    for coluna in COLUNAS_SAIDA:
+        tipo = TIPOS_SQLITE[TIPOS_SAIDA[coluna]]
         definicao = f'"{coluna}" {tipo}'
 
         if coluna == "participant_id":
@@ -32,13 +32,13 @@ def carregar_participantes(df: pd.DataFrame, caminho: str | Path) -> int:
             if maximo is not None:
                 definicao += f' CHECK ("{coluna}" <= {maximo})'
 
-        if TIPOS_FINAIS[coluna] == "boolean":
+        if TIPOS_SAIDA[coluna] == "boolean":
             definicao += f' CHECK ("{coluna}" IN (0, 1))'
 
         definicoes.append(definicao)
 
-    nomes = ", ".join(f'"{coluna}"' for coluna in COLUNAS_ESPERADAS)
-    parametros = ", ".join("?" for _ in COLUNAS_ESPERADAS)
+    nomes = ", ".join(f'"{coluna}"' for coluna in COLUNAS_SAIDA)
+    parametros = ", ".join("?" for _ in COLUNAS_SAIDA)
 
     # Converte pd.NA em None para gravar NULL no SQLite.
     dados_sql = dados.astype(object).where(dados.notna(), None)
@@ -49,6 +49,19 @@ def carregar_participantes(df: pd.DataFrame, caminho: str | Path) -> int:
         conexao.execute(
             f"CREATE TABLE IF NOT EXISTS participantes ({', '.join(definicoes)})"
         )
+
+        colunas_existentes = {
+            linha[1]
+            for linha in conexao.execute("PRAGMA table_info(participantes)")
+        }
+
+        for coluna, tipo_pandas in TIPOS_DERIVADOS.items():
+            if coluna not in colunas_existentes:
+                tipo_sqlite = TIPOS_SQLITE[tipo_pandas]
+                conexao.execute(
+                    f'ALTER TABLE participantes ADD COLUMN "{coluna}" {tipo_sqlite}'
+                )
+
         conexao.execute("DELETE FROM participantes")
         conexao.executemany(
             f"INSERT INTO participantes ({nomes}) VALUES ({parametros})",
@@ -80,7 +93,7 @@ def exportar_participantes(
     # Preserva 0 e 1 como inteiros, mesmo quando há valores ausentes.
     tipos_inteiros = {
         coluna: "Int64"
-        for coluna, tipo in TIPOS_FINAIS.items()
+        for coluna, tipo in TIPOS_DERIVADOS.items()
         if tipo in {"Int64", "boolean"}
     }
     dados = dados.astype(tipos_inteiros)

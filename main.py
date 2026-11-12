@@ -6,7 +6,7 @@ from extract import ExtractCSV
 from load import carregar_participantes, exportar_participantes
 from pathlib import Path
 from schema import COLUNAS_ESPERADAS
-from transform import comparar_ids_com_referencia, converter_numeros_e_booleanos, padronizar_categorias, remover_vazios_e_duplicatas,  resolver_ids_repetidos 
+from transform import adicionar_faixas_analiticas, comparar_ids_com_referencia, converter_numeros_e_booleanos, padronizar_categorias, remover_vazios_e_duplicatas,  resolver_ids_repetidos 
 
 
 CATEGORIAS_ACEITAS = {
@@ -227,7 +227,9 @@ def main() -> None:
     pasta_saida.mkdir(exist_ok=True)
     caminho_banco = Path("redes_sociais.db")
 
-    total_carregado = carregar_participantes(df_analitico, caminho_banco)
+    df_saida = adicionar_faixas_analiticas(df_analitico)
+    total_carregado = carregar_participantes(df_saida, caminho_banco)
+    
     total_exportado = exportar_participantes(
         caminho_banco,
         pasta_saida / "participantes.csv",
