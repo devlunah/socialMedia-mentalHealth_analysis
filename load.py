@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from schema import COLUNAS_SAIDA, FAIXAS, TIPOS_DERIVADOS, TIPOS_SAIDA
+from schema import (COLUNAS_SAIDA, FAIXAS, TIPOS_DERIVADOS, TIPOS_SAIDA)
 
 
 TIPOS_SQLITE = {

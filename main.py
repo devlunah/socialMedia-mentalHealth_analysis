@@ -6,7 +6,7 @@ from extract import ExtractCSV
 from load import carregar_participantes, exportar_participantes
 from pathlib import Path
 from schema import COLUNAS_ESPERADAS
-from transform import adicionar_faixas_analiticas, comparar_ids_com_referencia, converter_numeros_e_booleanos, padronizar_categorias, remover_vazios_e_duplicatas,  resolver_ids_repetidos 
+from transform import (adicionar_faixas_analiticas, comparar_ids_com_referencia, converter_numeros_e_booleanos, padronizar_categorias, remover_vazios_e_duplicatas,  resolver_ids_repetidos)
 
 
 CATEGORIAS_ACEITAS = {
@@ -56,10 +56,7 @@ def preparar_entrada(df: pd.DataFrame) -> pd.DataFrame:
     return dados
 
 
-def validar_categorias(
-    df: pd.DataFrame,
-    df_bruto: pd.DataFrame,
-) -> tuple[pd.DataFrame, pd.DataFrame]:
+def validar_categorias(df: pd.DataFrame, df_bruto: pd.DataFrame,) -> tuple[pd.DataFrame, pd.DataFrame]:
     dados = df.copy()
     bruto_por_registro = df_bruto.set_index("_source_record")
     ocorrencias = []
@@ -86,10 +83,7 @@ def validar_categorias(
     return dados, auditoria
 
 
-def auditar_divergencias(
-    tratado: pd.DataFrame,
-    original: pd.DataFrame,
-) -> pd.DataFrame:
+def auditar_divergencias(tratado: pd.DataFrame, original: pd.DataFrame,) -> pd.DataFrame:
     colunas_comparaveis = [
         coluna for coluna in COLUNAS_ESPERADAS
         if coluna != "participant_id"
@@ -134,7 +128,7 @@ def auditar_divergencias(
 
 def main() -> None:
     extrator = ExtractCSV(
-        "social_media_screentime_mental_health_2026_v2.csv",
+        "data/social_media_screentime_mental_health_2026_v2.csv",
         encoding="utf-8-sig",
         dtype="string",
         na_filter=False,
@@ -144,9 +138,7 @@ def main() -> None:
 
     df_sem_duplicatas, descartes = remover_vazios_e_duplicatas(df_bruto)
     df_padronizado = padronizar_categorias(df_sem_duplicatas)
-    df_convertido, erros_conversao = converter_numeros_e_booleanos(
-        df_padronizado
-    )
+    df_convertido, erros_conversao = converter_numeros_e_booleanos(df_padronizado)
     df_ids_unicos, revisao_ids = resolver_ids_repetidos(df_convertido)
 
     ids = df_ids_unicos["participant_id"]
@@ -157,17 +149,14 @@ def main() -> None:
         raise ValueError("A contagem não fechou após a resolução de IDs.")
 
     extrator_referencia = ExtractCSV(
-        "social_media_screentime_mental_health_2026.csv",
+        "data/social_media_screentime_mental_health_2026.csv",
         encoding="utf-8-sig",
         dtype="string",
         na_filter=False,
     )
     referencia = preparar_entrada(extrator_referencia.extract())
 
-    df_analitico, ids_extras, ids_originais_ausentes = comparar_ids_com_referencia(
-        df_ids_unicos,
-        referencia,
-    )
+    df_analitico, ids_extras, ids_originais_ausentes = comparar_ids_com_referencia(df_ids_unicos, referencia,)
 
     if len(df_analitico) + len(ids_extras) != len(df_ids_unicos):
         raise ValueError("A contagem dos IDs tratados não fechou.")
@@ -179,25 +168,16 @@ def main() -> None:
         revisao_ids["motivo"].eq("conflito_por_id"),
         "participant_id",
     ]
-    ausentes_em_conflito = ids_originais_ausentes["participant_id"].isin(
-        ids_em_conflito
-    )
+    ausentes_em_conflito = ids_originais_ausentes["participant_id"].isin(ids_em_conflito)
 
     df_analitico, erros_categorias = validar_categorias(df_analitico, df_bruto)
 
     referencia_padronizada = padronizar_categorias(referencia)
-    referencia_convertida, erros_referencia = converter_numeros_e_booleanos(
-        referencia_padronizada
-    )
-    auditoria_divergencias = auditar_divergencias(
-        df_analitico, referencia_convertida
-    )
+    referencia_convertida, erros_referencia = converter_numeros_e_booleanos(referencia_padronizada)
+    auditoria_divergencias = auditar_divergencias(df_analitico, referencia_convertida)
 
     print(f"Registros de entrada: {len(df_bruto)}")
-    print(
-        "Após remover linhas vazias e duplicatas exatas:",
-        len(df_sem_duplicatas),
-    )
+    print("Após remover linhas vazias e duplicatas exatas:", len(df_sem_duplicatas),)
     print(descartes["motivo"].value_counts().to_string())
 
     print(f"\nOcorrências de conversão: {len(erros_conversao)}")
@@ -205,6 +185,7 @@ def main() -> None:
         print(erros_conversao["motivo"].value_counts().to_string())
 
     print(f"\nRegistros após resolver IDs: {len(df_ids_unicos)}")
+
     if not revisao_ids.empty:
         print(revisao_ids["motivo"].value_counts().to_string())
 
@@ -216,24 +197,21 @@ def main() -> None:
     print(f"Ocorrências na conversão do original: {len(erros_referencia)}")
 
     print(f"\nCampos divergentes: {len(auditoria_divergencias)}")
-    print(
-        "Participantes com alguma divergência:",
-        auditoria_divergencias["participant_id"].nunique(),
-    )
+    print("Participantes com alguma divergência:", auditoria_divergencias["participant_id"].nunique(),)
+
     if not auditoria_divergencias.empty:
         print(auditoria_divergencias.head(10).to_string(index=False))
 
-    pasta_saida = Path("saida")
+    pasta_saida = Path("output")
     pasta_saida.mkdir(exist_ok=True)
-    caminho_banco = Path("redes_sociais.db")
+    pasta_banco = Path("database")
+    pasta_banco.mkdir(exist_ok=True)
+    caminho_banco = pasta_banco / "redes_sociais.db"
 
     df_saida = adicionar_faixas_analiticas(df_analitico)
     total_carregado = carregar_participantes(df_saida, caminho_banco)
     
-    total_exportado = exportar_participantes(
-        caminho_banco,
-        pasta_saida / "participantes.csv",
-    )
+    total_exportado = exportar_participantes(caminho_banco, pasta_saida / "participantes.csv",)
 
     if total_exportado != total_carregado:
         raise ValueError("A quantidade exportada difere da carga no SQLite.")

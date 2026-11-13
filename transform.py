@@ -16,16 +16,12 @@ COLUNAS_CATEGORICAS = (
 )
 
 
-def remover_vazios_e_duplicatas(
-    df_bruto: pd.DataFrame,
-) -> tuple[pd.DataFrame, pd.DataFrame]:
+def remover_vazios_e_duplicatas(df_bruto: pd.DataFrame,) -> tuple[pd.DataFrame, pd.DataFrame]:
     dados_origem = df_bruto[COLUNAS_ESPERADAS]
 
     # A linha é vazia se todos os campos estiverem nulos,
     # em branco ou preenchidos apenas com espaços.
-    campos_vazios = dados_origem.apply(
-        lambda coluna: coluna.str.strip().fillna("").eq("")
-    )
+    campos_vazios = dados_origem.apply(lambda coluna: coluna.str.strip().fillna("").eq(""))
     linhas_vazias = campos_vazios.all(axis=1)
 
     sem_vazios = df_bruto.loc[~linhas_vazias]
@@ -62,9 +58,7 @@ def padronizar_categorias(df: pd.DataFrame) -> pd.DataFrame:
 
     return dados
 
-def converter_numeros_e_booleanos(
-    df: pd.DataFrame,
-) -> tuple[pd.DataFrame, pd.DataFrame]:
+def converter_numeros_e_booleanos(df: pd.DataFrame,) -> tuple[pd.DataFrame, pd.DataFrame]:
     dados = df.copy()
     ocorrencias = []
 
@@ -126,9 +120,7 @@ def converter_numeros_e_booleanos(
     )
     return dados, auditoria
 
-def resolver_ids_repetidos(
-    df: pd.DataFrame,
-) -> tuple[pd.DataFrame, pd.DataFrame]:
+def resolver_ids_repetidos(df: pd.DataFrame,) -> tuple[pd.DataFrame, pd.DataFrame]:
     dados = df.sort_values("_source_record")
 
     sem_id = dados["participant_id"].isna()
@@ -157,10 +149,7 @@ def resolver_ids_repetidos(
     dados_unicos = com_id.loc[~equivalentes & ~em_conflito].copy()
     return dados_unicos, revisao
 
-def comparar_ids_com_referencia(
-    df: pd.DataFrame,
-    referencia: pd.DataFrame,
-) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+def comparar_ids_com_referencia(df: pd.DataFrame, referencia: pd.DataFrame,) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     ids_referencia = referencia["participant_id"].astype("string").str.strip()
     ids_referencia = ids_referencia.mask(ids_referencia.eq(""))
 
